@@ -1,6 +1,6 @@
 import React, { useState, useContext } from 'react'
 import UserContext from '../context/UserContext'
-function login() {
+function Login() {
     const [username, setUsername] = useState('')
     const [password, setPassword] = useState('')
 
@@ -21,4 +21,4 @@ function login() {
     )
 }
 
-export default login
+export default Login
